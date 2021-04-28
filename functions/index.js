@@ -42,7 +42,7 @@ exports.getClosestBuddy = functions.https.onRequest((request, response) => {
         let minDist = 100000;
         let closeBuddy = "";
         for(let buddy in buddies){
-            if(buddies[buddy].status === "waiting"){
+            if(buddies[buddy].status === "online"){
                 let dist = geolib.getDistance(userPos, buddies[buddy].position);
                 if(dist < minDist){
                     minDist = dist;
