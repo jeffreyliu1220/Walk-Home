@@ -62,7 +62,3 @@ exports.getClosestBuddy = functions.https.onRequest((request, response) => {
     });
     
 });
-
-exports.helloFriends = functions.https.onRequest((request, response) => {
-    response.send("Enjoy your movie friends: Kushal and Ayaan :)");
-});
