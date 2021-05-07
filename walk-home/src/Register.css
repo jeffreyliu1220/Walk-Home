@@ -1,20 +1,26 @@
 
 
-/* .FormBody{
+.FormBody{
     background: conic-gradient(from 188.74deg at 55.59% 33.39%, #4973AD 0deg, rgba(255, 255, 255, 0) 232.82deg, #4973AD 360deg), #E9E9E9;
     height: 100%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
 
-} */
-
-/* .FormContainer{
+.FormContainer{
     /*background-color: white;*/
-    /* background-color: white;
+    background-color: white;
     border-radius: 50px;
     margin-bottom: 0;
-    margin: 10% 0% 10% 10% 10%;
+    margin: 10% 0% 10% 0% 10%;
     height: 100%;
     width: 35%; 
-}  */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 
 .page-background{
     background-image: url('./images/blue-white.png');
