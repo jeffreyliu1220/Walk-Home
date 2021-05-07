@@ -1,17 +1,48 @@
 
 
-.FormBody{
+/* .FormBody{
     background: conic-gradient(from 188.74deg at 55.59% 33.39%, #4973AD 0deg, rgba(255, 255, 255, 0) 232.82deg, #4973AD 360deg), #E9E9E9;
     height: 100%;
 
-}
+} */
 
-.FormContainer{
+/* .FormContainer{
     /*background-color: white;*/
-    background-color: white;
+    /* background-color: white;
     border-radius: 50px;
     margin-bottom: 0;
     margin: 10% 0% 10% 10% 10%;
     height: 100%;
     width: 35%; 
+}  */
+
+.page-background{
+    background-image: url('./images/blue-white.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 1024px;
+        
+
+    width: 100%;
+    height: auto;
+        
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.main-form{
+    background: #fff;
+    border-radius: 25px;
+    width: 650px;
+    margin: 100px, 100px, 100px, 100px;
+
+}
+
+.submit-button{
+    margin: auto;
 }

@@ -6,11 +6,14 @@ function Register(){
         //Change the background colors back to figma later
         //TODO: Fix the weird white space at the bottom of the registration form
         //TODO: Find out how to connect form to Kushal's google firebase set up
-        <div className = "p-3 mb-2 bg-dark text-white">
-            <Container className = "p-3 mb-2 bg-dark text-white" fluid = "md">
-                <Form action = "/url" method = "post">
+    <div className = 'page-background'>
+        {/* <div className = "p-3 mb-2 bg-dark text-white"> */}
+        <Container className = "p-3 mb-2 bg-dark text-white" fluid = "md">
                 <Image src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/University_of_Texas_at_Austin_seal.svg/200px-University_of_Texas_at_Austin_seal.svg.png" rounded/>
                 <h1>Way Home</h1>
+        </Container>
+        <Container className = "main-form">
+            <Form action = "/url" method = "post">
                 <Form.Group>
                     <Form.Label> Full Name </Form.Label>
                     <Form.Control placeholder="Full Name" />
@@ -33,10 +36,14 @@ function Register(){
                     <Form.Label> Destination </Form.Label>
                     <Form.Control placeholder="Destination" />
                 </Form.Group>
-                <Button variant = "primary" type = "submit">Find a Buddy!</Button>
+
+                <Button margin-left = "auto" margin-right = "auto" variant = "primary" type = "submit">Find a Buddy!</Button>
+                
                 </Form>
             </Container>
-        </div>
+        {/* </div> */}
+    </div>
+        
     )
 }
 
