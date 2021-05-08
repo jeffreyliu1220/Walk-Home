@@ -39,7 +39,7 @@ exports.getClosestBuddy = functions.https.onRequest((request, response) => {
     */
     return cors(request, response, () =>{
         const userPos = request.body;
-        let minDist = 100000;
+        let minDist = Number.MAX_SAFE_INTEGER;
         let closeBuddy = "";
         for(let buddy in buddies){
             if(buddies[buddy].status === "online"){
